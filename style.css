@@ -1,0 +1,496 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+
+
+
+/*   ##########################################################################################  */
+/*   ##########################################################################################  */
+/*                                D E K S T O P    S T Y L I N G                                 */
+/*   ##########################################################################################  */
+/*   ##########################################################################################  */
+
+
+
+
+/******************************************************************/
+/******************************************************************/
+/*                           H E A D E R                          */
+/******************************************************************/
+/******************************************************************/
+
+
+
+
+.Original_header {
+    background-color: black;
+    color: white;
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 3vw;
+    letter-spacing: 4px;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+
+
+/******************************************************************/
+/******************************************************************/
+/*                   M I D D L E   P A R T                        */
+/******************************************************************/
+/******************************************************************/
+
+
+
+.B {
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* outline: 5px solid red ; */
+     overflow-y: scroll;
+   
+}
+
+.B_inner
+{
+    width: 80%;
+    height: 100%;
+    display: flex;
+    justify-content: start;
+    align-items: start;
+   
+
+}
+
+.ELEMENT_CONTAINER
+{
+    width: 100%;
+    height: auto;
+    /* outline: 5px solid red ; */
+
+
+}
+
+.ELEMENT
+{
+    width: 100%;
+    height: 40vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* outline: 1px solid red; */
+    background-color: skyblue;
+    border-radius: 10px;
+    margin-top: 3vh;
+    margin-bottom: 3vh;
+    
+}
+
+.ELEMENT_a
+{
+    width: 100%;
+    height: 25%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* outline: 1px solid red; */
+  
+}
+
+.ELEMENT_a_1
+{
+    width: 10%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* outline: 1px solid red; */
+    color: black;
+    font-size: 2vw;
+   
+}
+
+.ELEMENT_a_2
+{
+    width: 88%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    /* outline: 1px solid red; */
+    color: black;
+    font-size: 2vw;
+     letter-spacing: 5px;
+    
+}
+
+.ELEMENT_b
+{
+    width: 90%;
+    height: 75%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* outline: 1px solid red; */
+}
+
+
+
+
+.ELEMENT_b_left
+{
+    width: 80%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* outline: 1px solid red; */
+}
+
+
+
+
+.ELEMENT_b_left_1
+{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    /* outline: 1px solid red; */
+     color: black;
+    font-size: 1vw;
+}
+
+
+
+.ELEMENT_b_right
+{
+    width: 20%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:10%;
+    /* outline: 1px solid red; */
+}
+
+
+
+.ELEMENT_b_right_btn_box
+{
+    width: 90%;
+    height: 25%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* outline: 1px solid red; */
+    background-color: white;
+    border-radius: 5px;
+    font-size: 1.2vw;
+    color: black;
+
+}
+
+
+.ELEMENT_b_right_btn_box:hover
+{
+ background-color: yellow;
+ cursor: pointer;
+}
+
+/******************************************************************/
+/******************************************************************/
+/*                 F O O T E R   P A R T                          */
+/******************************************************************/
+/******************************************************************/
+
+
+
+.Original_footer {
+    background-color: black;
+    color: white;
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5vw;
+    letter-spacing: 4px;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+
+
+
+
+/*   ##########################################################################################  */
+/*   ##########################################################################################  */
+/*                               M O B I L E       S T Y L I N G                                 */
+/*   ##########################################################################################  */
+/*   ##########################################################################################  */
+
+
+
+
+
+
+@media (max-width: 600px) {
+  
+
+
+    body{}
+
+
+/******************************************************************/
+/******************************************************************/
+/*                           H E A D E R                          */
+/******************************************************************/
+/******************************************************************/
+
+
+
+
+.Original_header {
+    background-color: black;
+    color: white;
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 5vw;
+    letter-spacing: 4px;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+
+
+/******************************************************************/
+/******************************************************************/
+/*                   M I D D L E   P A R T                        */
+/******************************************************************/
+/******************************************************************/
+
+
+
+.B {
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* outline: 5px solid red ; */
+     overflow-y: scroll;
+   
+}
+
+.B_inner
+{
+    width: 90%;
+    height: 100%;
+    display: flex;
+    justify-content: start;
+    align-items: start;
+   
+
+}
+
+.ELEMENT_CONTAINER
+{
+    width: 100%;
+    height: auto;
+    /* outline: 5px solid red ; */
+
+
+}
+
+.ELEMENT
+{
+    width: 100%;
+    height: 20vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* outline: 1px solid red; */
+    background-color: skyblue;
+    border-radius: 10px;
+    margin-top: 3vh;
+    margin-bottom: 3vh;
+    
+    
+}
+
+.ELEMENT_a
+{
+    width: 100%;
+    height: 25%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* outline: 1px solid red; */
+  
+}
+
+.ELEMENT_a_1
+{
+    width: 10%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* outline: 1px solid red; */
+    color: black;
+    font-size: 3vw;
+   
+}
+
+.ELEMENT_a_2
+{
+    width: 88%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    /* outline: 1px solid red; */
+    color: black;
+    font-size: 3vw;
+     letter-spacing: 5px;
+    
+}
+
+.ELEMENT_b
+{
+    width: 90%;
+    height: 75%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* outline: 1px solid red; */
+}
+
+
+
+
+.ELEMENT_b_left
+{
+    width: 80%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* outline: 1px solid red; */
+}
+
+
+
+
+.ELEMENT_b_left_1
+{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    /* outline: 1px solid red; */
+     color: black;
+    font-size: 2vw;
+}
+
+
+
+.ELEMENT_b_right
+{
+    width: 20%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:10%;
+    /* outline: 1px solid red; */
+}
+
+
+
+.ELEMENT_b_right_btn_box
+{
+    width: 90%;
+    height: 25%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* outline: 1px solid red; */
+    background-color: white;
+    border-radius: 5px;
+    font-size: 1.2vw;
+    color: black;
+
+}
+
+
+.ELEMENT_b_right_btn_box:hover
+{
+ background-color: yellow;
+ cursor: pointer;
+}
+
+/******************************************************************/
+/******************************************************************/
+/*                 F O O T E R   P A R T                          */
+/******************************************************************/
+/******************************************************************/
+
+
+
+.Original_footer {
+    background-color: black;
+    color: white;
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 3vw;
+    letter-spacing: 4px;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+
+
+}
