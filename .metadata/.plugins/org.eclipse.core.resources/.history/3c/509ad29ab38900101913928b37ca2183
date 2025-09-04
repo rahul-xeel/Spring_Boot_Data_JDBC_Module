@@ -1,0 +1,13 @@
+spring.application.name=1__Spring_boot_jdbc_app
+
+
+
+# Database properties
+
+spring.datasource.url=jdbc:mysql://localhost:3306/
+
+spring.datasource.username=1__rahul_xeel
+
+spring.datasource.password=NewPassword123
+
+
